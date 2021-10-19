@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function disableselect(e) { return !1 } function reEnable() { return !0 } document.addEventListener("contextmenu", function (e) { e.preventDefault() }), document.onkeydown = function (e) { return 123 != e.keyCode && ((!e.ctrlKey || !e.shiftKey || e.keyCode != "I".charCodeAt(0)) && ((!e.ctrlKey || !e.shiftKey || e.keyCode != "J".charCodeAt(0)) && ((!e.ctrlKey || e.keyCode != "U".charCodeAt(0)) && ((!e.ctrlKey || !e.shiftKey || e.keyCode != "C".charCodeAt(0)) && void 0)))) }, document.onselectstart = new Function("return false"), window.sidebar && (document.onmousedown = disableselect, document.onclick = reEnable), $("a").attr("draggable", !1), $("img").attr("draggable", !1);
+    </script>
+</body>
+
+</html>
